@@ -1,32 +1,99 @@
-
-
 body{
   display: flex;
   justify-content: center;
   font-family: cursive;
-  background-color: black;
+  background-color: #1e3d59;
 }
 .container{
-  background-color: aqua;
+  background-color: #f5f0e1;
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-top: 200px;
+  height: 500px;
+  width: 700px;
+  border: black 3px solid;
+  border-radius: 30px;
 }
 
 .game{
-  background-color: aquamarine; 
+  
+  border-radius: 20px;
   width: 400px;
   flex-direction: column;
   display: flex;
-  justify-content: center;
   align-items: center;
+  
 }
 
 .btn{
-  margin-top: 5px;
+  margin-top: 15px;
+  height: 40px;
+  width: 100px;
 }
 
 .input{
-  width: 50px;
+  width: 70px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.startGame{
+  height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  background-color: #1e3d59;
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+  border-radius: 30px;
+}
+
+.restartBtn{
+  height: 40px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.text{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 17px;
+  margin-top: 0px;
+}
+.title{
+  font-weight: bold;
+  font-size: 22px;
+}
+.hidenWord{
+  font-size: 22px;
+}
+
+.box12{
+display: flex;
+
+flex-direction: row;
+margin-top: 30px;
+}
+
+.box1{
+margin-right: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.box2{
+margin-left: 70px;
+
+}
+
+.box3{
+margin-top: 15px;
+
 }

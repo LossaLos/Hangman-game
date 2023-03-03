@@ -1,6 +1,6 @@
 let word = [
     "computer",
-    "programmation",
+    "programation",
     "javascript",
     "developper",
     "interface",
@@ -22,7 +22,7 @@ let word = [
   
   function startGame() {
     let hidenWord = document.getElementById("hidenWord");
-    
+
     hidenWord.innerHTML = hidenLetters;
   }
   
@@ -53,7 +53,7 @@ let word = [
       fail--;
       lifeCount.innerHTML = fail;
       let deadLetters = document.getElementById("deadLetters");
-      deadLetters.innerHTML += " " + guess;
+      deadLetters.innerHTML += " " + guess + ",";
     }
   
     if (fail === FAIL) {
@@ -90,7 +90,7 @@ let word = [
     fail = 8;
     lifeCount.innerHTML = fail;
     let deadLetters = document.getElementById("deadLetters");
-    deadLetters.innerHTML = "";
+    deadLetters.innerHTML = "Dead letters :";
     let winOrLoose = document.getElementById("winOrLoose");
     winOrLoose.innerHTML = "";
     let startBtn = document.querySelector(".startGame");

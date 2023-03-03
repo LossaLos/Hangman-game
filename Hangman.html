@@ -8,19 +8,29 @@
 
 <Body>
     <div class="container">
-        <p>Hangman Game</p>
-        <p>Trie to guess it by guessing letters. Each incorrect guess brings you closer to being "hanged."</p>
+        <p class="title">Hangman Game</p>
+        <p class="text">Trie to guess it by guessing letters. Each incorrect guess brings you closer to being "hanged."</p>
         <button class="startGame" onclick="initGame()">Start Game</button>
 
         <div class="game">
-            <p class="hidenWord" id="hidenWord"></p>
-            <input type="text" class="input" name="" id="input">
-            <button class="btn" id="btn">Write a letter</button>
-            <p class="deadLetters" id="deadLetters">Dead letters : </p>
-            <p class="life" >Life left : <span id="life"></span></p>
-            <button id="restartBtn">Restart Game</button>
+            <div class="box12">
+                <div class="box1">
+                  <input type="text" class="input" name="" id="input">
+                  <button class="btn" id="btn">Write a letter</button>
+                </div>
+            
+                <div class="box2">
+                    <p class="hidenWord" id="hidenWord"></p>
+                    <p class="deadLetters" id="deadLetters">Dead letters : </p>
+                    <p class="life" >Life left : <span id="life"></span></p>
+                </div>
+            </div>
+            <div class="box3">
+                <p class="winOrLoose" id="winOrLoose"></p>
+                <button class="restartBtn" id="restartBtn">Restart Game</button>
+            </div>
         </div>
-        <p class="winOrLoose" id="winOrLoose"></p>
+      
         
 
     </div>
