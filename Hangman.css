@@ -1,0 +1,32 @@
+
+
+body{
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  background-color: black;
+}
+.container{
+  background-color: aqua;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.game{
+  background-color: aquamarine; 
+  width: 400px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin-top: 5px;
+}
+
+.input{
+  width: 50px;
+}

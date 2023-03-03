@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Hangman Game</title>
+        <link href="Hangman.css" rel="stylesheet">
+</head>
+
+<Body>
+    <div class="container">
+        <p>Hangman Game</p>
+        <p>Trie to guess it by guessing letters. Each incorrect guess brings you closer to being "hanged."</p>
+        <button class="startGame" onclick="initGame()">Start Game</button>
+
+        <div class="game">
+            <p class="hidenWord" id="hidenWord"></p>
+            <input type="text" class="input" name="" id="input">
+            <button class="btn" id="btn">Write a letter</button>
+            <p class="deadLetters" id="deadLetters">Dead letters : </p>
+            <p class="life" >Life left : <span id="life"></span></p>
+            <button id="restartBtn">Restart Game</button>
+        </div>
+        <p class="winOrLoose" id="winOrLoose"></p>
+        
+
+    </div>
+    <script src="Hangman.js"></script>
+</Body>
